@@ -1,0 +1,10 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+ </div>
+<p>
+  Enter your name :
+  <input #user type="text">
+</p>
+  <button (click)="onSubmit(user.value)" >Submit</button>
